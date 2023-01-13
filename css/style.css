@@ -1,5 +1,21 @@
-.center {
-    padding: 10rem;
-    border: 10rem ;
-    text-align: center;
-}
+.container {
+    height: 200px;
+    position: relative;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .background {
+    background-color: #2e2e2e;
+  }
+
+  .white-text {
+    color: white;
+  }

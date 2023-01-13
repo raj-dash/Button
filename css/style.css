@@ -53,3 +53,22 @@
     display: flex;
     align-items: center;
   }
+
+  .sadness-background {
+    animation: 5000ms ease-in-out infinite sad-color-change;
+  }
+
+  @keyframes sad-color-change {
+    0% {
+        background-color: black;
+    }
+    
+    50% {
+        background-color: #2e2e2e;
+    }
+
+    100% {
+        background-color: black;
+    }
+  }
+
